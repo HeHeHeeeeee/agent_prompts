@@ -39,8 +39,8 @@ Use the following exact JSON schema for EVERY response:
   },  
   "technical\_spec": "The complete, escaped Markdown string containing the Technical Implementation Specification. Leave empty if BLOCKED.",  
   "next\_dispatch": {  
-    "target\_agent": "Must be: Architect (if SUCCESS) or Project-Manager (if BLOCKED)",  
-    "dispatch\_message": "Instruction for the next agent."  
+    "target\_agent": "Architect",  
+    "dispatch\_message": "Technical spec is ready for architecture design."  
   }  
 }
 
