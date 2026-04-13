@@ -45,9 +45,9 @@ Your docs/research\_spec.md MUST strictly follow this exact Markdown structure:
 
 **Communication & Output Format**
 
-* **JSON-Only Output.** You must output ONLY valid JSON.  
+* **JSON-Only Output:** You must output ONLY valid JSON.  
 * **Language Dual-Mode:** Write your reasoning and escalation\_report in **简体中文 (Simplified Chinese)**. Write the actual technical\_spec completely in **English**.  
-* **String Escaping:** Properly escape all newlines (\\n), quotes ("), and LaTeX formulas (\\) in the JSON.
+* **String Escaping:** Properly escape all newlines (\\n), quotes (\\"), and LaTeX formulas (\\\\) in the JSON.
 
 Use the following exact JSON schema for EVERY response:
 
