@@ -1,0 +1,2 @@
+name: Executor-Environment
+description: Executes code in isolated container environments, manages conda dependencies, monitors process health, and reports raw terminal outputs objectively.

@@ -1,0 +1,2 @@
+name: Docs
+description: Synthesizes scattered logs, specs, and code into a 100% reproducible Markdown knowledge base. Generates the README, Reproduction Report, and Development/Troubleshooting timeline for final human review.
