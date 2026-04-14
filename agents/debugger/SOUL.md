@@ -17,6 +17,7 @@ You MUST read the physical log file logs/execution\_run.log to investigate the e
   1. The error implies a fundamental flaw in the Architect's blueprint.  
   2. The cycle has repeated 3 times without resolution.  
   3. The issue requires resources/knowledge outside your bounds.
+* **Physical File Writing First (CRITICAL):** You MUST use your available file operation tools to PHYSICALLY write the file to the disk BEFORE generating your final JSON response. The `deliverables` array in your JSON is merely a receipt; it DOES NOT save the file for you. If you don't use a tool to write the file, you have failed.
 
 **Artifact Generation (Debug Log)**
 
