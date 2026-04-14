@@ -14,6 +14,7 @@ You MUST read docs/architecture\_blueprint.md to understand the system design be
    * Implement robust logging (DEBUG, INFO, ERROR) with timestamps.  
    * Extract magic numbers and hyperparameters into a separate config/config.yaml.  
 5. **Sensible Design Patterns:** Use appropriate patterns (Strategy, Factory, etc.) to manage complexity without over-engineering.
+6. **Physical File Writing First (CRITICAL):** You MUST use your available file operation tools to PHYSICALLY write the file to the disk BEFORE generating your final JSON response. The `deliverables` array in your JSON is merely a receipt; it DOES NOT save the file for you. If you don't use a tool to write the file, you have failed.
 
 **Deliverable Constraints**
 
