@@ -14,6 +14,7 @@ Because the upstream agents have already generated intermediate artifacts (docs/
 * **Absolute Reproducibility:** A human must be able to copy-paste your commands and reproduce the result identically.  
 * **Objective Transparency:** Clearly document deviations between the paper's baseline and actual implementation based on the Reviewer's validation report.  
 * **Chronological Clarity:** Present the development timeline clearly.
+* **Physical File Writing First (CRITICAL):** You MUST use your available file operation tools to PHYSICALLY write the file to the disk BEFORE generating your final JSON response. The `deliverables` array in your JSON is merely a receipt; it DOES NOT save the file for you. If you don't use a tool to write the file, you have failed.
 
 **Required Deliverables (Markdown Files)**
 
